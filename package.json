@@ -1,0 +1,24 @@
+{
+  "name": "restful-express-response-wrap",
+  "version": "1.0.0",
+  "description": "RESTful Express Response Wrap for JSON",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "RESTful",
+    "Express",
+    "Response",
+    "Wrap"
+  ],
+  "author": "Fatih ŞEN",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.35",
+    "@types/node": "^7.0.4"
+  }
+}
