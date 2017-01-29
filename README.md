@@ -53,6 +53,8 @@ server.get("/", function(req, res, next) {
 });
 
 // for offset and limit to be used in Array response.
-server.use(wrap({ offset: 0, limit: 10 }));
-
+// { offset: 0, limit: 10 } this part is optional default is 0, 25 as respectively
+server.use(wrap());
+// also wrap register for 404 and 500 errors
+// always returns json but server status code served inside json with message.
 ```

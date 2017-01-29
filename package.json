@@ -1,6 +1,6 @@
 {
   "name": "restful-express-response-wrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "RESTful Express Response Wrap for JSON",
   "main": "index.js",
   "types": "index.d.ts",
