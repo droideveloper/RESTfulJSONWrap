@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "RESTful Express Response Wrap for JSON",
   "main": "index.js",
-  "scripts": {
-    "start": "nodemon index.js"
+  "types": "index.d.ts",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/droideveloper/RESTfulJSONWrap"
   },
   "keywords": [
     "RESTful",
